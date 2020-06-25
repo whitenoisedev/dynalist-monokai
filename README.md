@@ -12,7 +12,7 @@ Much of the credit for this theme goes to @Jevgeni for the initial work
 
 # Changelog
 
-## current
+## 0.4.3
 - fixed text placeholder
 - yellow breadcrumb in search
 
