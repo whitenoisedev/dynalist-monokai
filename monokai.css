@@ -783,6 +783,9 @@ option:active {
 .Suggestions-dropdownLoadAll {
   border-top: 1px solid var(--gray-5);
 }
+.Suggestions-itemBreadcrumb {
+  color: var(--yellow);
+}
 .view-filter-option-choice.is-selected {
   border: 1px solid var(--gray-1);
   color: var(--gray-1);

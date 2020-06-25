@@ -12,6 +12,9 @@ Much of the credit for this theme goes to @Jevgeni for the initial work
 
 # Changelog
 
+## current
+- yellow breadcrumb in search
+
 ## 0.4.2
 - polished checkboxes
 
