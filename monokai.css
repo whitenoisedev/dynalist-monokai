@@ -71,6 +71,9 @@ select {
   border-color: var(--gray-6);
   border-radius: none;
 }
+input::placeholder{
+  color: var(--gray-3);
+}
 input:focus,
 textarea:focus,
 select:focus,
