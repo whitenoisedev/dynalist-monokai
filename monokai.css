@@ -71,6 +71,7 @@ select {
   border-color: var(--gray-6);
   border-radius: none;
 }
+textarea::placeholder,
 input::placeholder{
   color: var(--gray-3);
 }
