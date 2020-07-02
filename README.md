@@ -8,9 +8,12 @@ Much of the credit for this theme goes to @Jevgeni for the initial work
 
 # Files
 `Monokai.css` - Main Theme (based on @Silver dark theme)  
-`whitenosie-custom.cc` - Minor tweaks (personal preference)
+`whitenoise-custom.cc` - Minor tweaks (personal preference)
 
 # Changelog
+
+## current
+- fixed typo
 
 ## 0.4.4
 - support for backlinks
