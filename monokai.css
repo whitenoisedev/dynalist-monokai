@@ -976,6 +976,14 @@ option:active {
 .Node-checkbox:after {
   border-color: var(--gray-1);
 }
+.node-backlink-counter {
+  background-color: var(--node-green);
+  color: var(--gray-1);
+}
+.node-backlink-counter:hover {
+  background-color: var(--green);
+  color: var(--gray-9);
+}
 .Node-openNote:after {
   color: #838383;
 }
@@ -1140,7 +1148,8 @@ option:active {
 .node-toolbar-option.mod-more-options.is-open {
   background-color: #181818;
 }
-.search-ui-container .Node-outer .has-hover {
+.search-ui-container .Node.has-hover,
+.document-backlinks-container .Node.has-hover {
   background-color: var(--gray-6);
 }
 .search-ui-container .Node .has-hover {
@@ -1166,6 +1175,9 @@ option:active {
 .flat-search-breadcrumb-item,
 .flat-search-breadcrumb-delimiter {
   color: var(--yellow);
+}
+.document-backlinks-container {
+  border-top: 1px solid var(--gray-5);
 }
 .document-mindmap {
   background-color: var(--gray-7)

@@ -12,7 +12,8 @@ Much of the credit for this theme goes to @Jevgeni for the initial work
 
 # Changelog
 
-## current
+## 0.4.4
+- support for backlinks
 - fixed more placeholder text
 
 ## 0.4.3

@@ -19,6 +19,9 @@
 .Pane {
     font-size: 18px;
 }
+.node-backlink-counter {
+  font-size: 9pt;
+}
 .DocumentSearch {
   font-size: 17px;
   width: 400px;
