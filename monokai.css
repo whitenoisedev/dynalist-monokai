@@ -641,37 +641,42 @@ option:active {
 .setting-checkbox + .setting-label:after {
   border-color: var(--gray-1);
 }
-.keymap-shortcut-combo,
 .KeyboardShortcut {
-  background: #262626;
+  background: var(--gray-7);
+  color: var(--gray-2);
+}
+.keymap-shortcut-combo {
+  background: var(--gray-9);
+  color: var(--gray-3);
+}
+.keymap-shortcut-combo:hover {
+  background: var(--gray-6);
+  color: var(--gray-1);
+}
+.keymap-shortcut-combo.is-being-changed {
+  background: var(--node-blue);
+  color: var(--gray-1);
+}
+.keymap-shortcut-combo.is-being-changed .keymap-shortcut-combo-delete {
+  color: var(--red);
 }
 .keymap-shortcut-combo-delete {
   color: var(--gray-3);
 }
 .keymap-shortcut-combo-delete:hover {
-  color: #eee;
-}
-.keymap-shortcut-combo:hover {
-  background: #424242;
-}
-.keymap-shortcut-combo.is-being-changed {
-  background: #008aff;
-  color: #fdfdfd;
-}
-.keymap-shortcut-combo.is-being-changed .keymap-shortcut-combo-delete {
-  color: #fdfdfd;
+  color: var(--gray-1);
 }
 .keymap-shortcut-overridden-icon {
-  color: #cacaca;
+  color: var(--gray-3);
 }
 .keymap-shortcut-overridden-icon:hover {
-  color: #008aff;
+  color: var(--gray-1);
 }
 .keymap-search-icon {
   color: var(--gray-3);
 }
 .keymap-search-icon:hover {
-  color: #a7a7a7;
+  color: var(--gray-1);
 }
 .version-history-version {
   background-color: #262626;
