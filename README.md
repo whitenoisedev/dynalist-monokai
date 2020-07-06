@@ -14,6 +14,9 @@ Much of the credit for this theme goes to @Jevgeni for the initial work
 
 ## current
 
+## 0.5.1
+- whitenoise: Only hide bookmarks icon
+
 ## 0.5.0
 - fixed typo
 - polished keyboard shortcuts

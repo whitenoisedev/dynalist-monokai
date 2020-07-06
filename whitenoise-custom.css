@@ -41,11 +41,15 @@
 */
 
 /* Hide folder and file icons */
-.BookmarkItem-icon,
+.BookmarkItem-icon {
+  display: none;
+}
+/*
 .DocumentItem-icon,
 .FolderItem-icon {
   display: none;
 }
+*/
 
 /*  Shrink Images by doing ![](https://.../blah.jpg#75)  */
 .node-displayed-image[src$="#75"] {
