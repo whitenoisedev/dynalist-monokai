@@ -992,8 +992,9 @@ option:active {
   background-color: var(--green);
   color: var(--gray-9);
 }
+/* what is this? */
 .Node-openNote:after {
-  color: #838383;
+  color: var(--gray-2);
 }
 .CurrentLineHighlight {
   background: rgba(255, 255, 255, 0.05);

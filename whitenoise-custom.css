@@ -97,8 +97,3 @@
 .MobileHeader-moreOption--synced[style*='display: none'] {
   display: none !important;
 }
-
-/* debug */ 
-.Node-openNote:after {
-  color: fuchsia;
-}

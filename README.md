@@ -13,6 +13,8 @@ Much of the credit for this theme goes to @Jevgeni for the initial work
 # Changelog
 
 ## current
+
+## 0.5.0
 - fixed typo
 - polished keyboard shortcuts
 - added colors to less frequent screens
