@@ -128,12 +128,12 @@ option:active {
   border: 1px solid var(--gray-1);
 }
 .SuccessMessage {
-  background-color: rgba(70, 223, 32, 0.4);
-  border: 1px solid #46df20;
+  background-color: var(--node-green);
+  border: 1px solid var(--green);
 }
 .ErrorMessage {
-  background-color: rgba(223, 32, 32, 0.4);
-  border: 1px solid #df2020;
+  background-color: var(--node-green);
+  border: 1px solid var(--red);
 }
 ::-webkit-scrollbar {
   background-color: rgba(255, 255, 255, 0.05);
@@ -548,10 +548,10 @@ option:active {
   border-bottom: 1px solid #444;
 }
 .option-add-button {
-  color: #55c639;
+  color: var(--green);
 }
 .option-remove-button {
-  color: #c63939;
+  color: var(--red);
 }
 .toolbar-customize-option {
   border-color: var(--gray-5);
@@ -568,7 +568,10 @@ option:active {
   color: var(--gray-1);
 }
 .SharingForm .collab-delete {
-  color: #838383;
+  color: var(--gray-3);
+}
+.SharingForm .collab-delete:hover {
+  color: var(--gray-1);
 }
 .SharingForm ul {
   background: var(--gray-9);
@@ -679,19 +682,19 @@ option:active {
   color: var(--gray-1);
 }
 .version-history-version {
-  background-color: #262626;
+  background-color: var(--gray-9);
 }
 .version-history-version:hover {
-  background-color: #343434;
+  background-color: var(--gray-6);
 }
 .version-history-version.is-selected {
-  background: #003766;
+  background: var(--node-blue);
 }
 .version-history-version + .version-history-version {
   border-top: 1px solid #444;
 }
 .version-history-diff-partial {
-  background: #181818;
+  background: var(--gray-8)
 }
 .version-history-before {
   border-right: 1px solid #444;
@@ -700,7 +703,7 @@ option:active {
   border-left: 1px solid #444;
 }
 .version-history-version-details {
-  color: #a7a7a7;
+  color: var(--gray-3);
 }
 .version-history-diff .Node.has-hover {
   background-color: #003766;
@@ -1151,7 +1154,7 @@ option:active {
   background: none;
 }
 .node-toolbar-option.mod-more-options.is-open {
-  background-color: #181818;
+  background-color: var(--gray-8);
 }
 .search-ui-container .Node.has-hover,
 .document-backlinks-container .Node.has-hover {

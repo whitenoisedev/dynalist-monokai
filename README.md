@@ -14,6 +14,8 @@ Much of the credit for this theme goes to @Jevgeni for the initial work
 
 ## current
 - fixed typo
+- polished keyboard shortcuts
+- added colors to less frequent screens
 
 ## 0.4.4
 - support for backlinks
