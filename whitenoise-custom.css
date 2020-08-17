@@ -1,14 +1,22 @@
 /* ------------WhiteNoise Custom -------------------  */
 
 /* Custom font sizes */
+.Node.is-currentRoot > .Node-self .node-line, 
+.Node.is-currentRoot > .Node-self.is-heading .node-line, 
+.Node.is-currentRoot > .Node-self .node-line-strict, 
+.Node.is-currentRoot > .Node-self.is-heading .node-line-strict {
+  font-size: 27px;
+  line-height: 32px;
+}
+
 .is-mediumFont .Node-self.is-heading1 .Node-contentContainer {
-    font-size: 22px;
+    font-size: 23px;
 }
 .is-mediumFont .Node-self.is-heading2 .Node-contentContainer {
-    font-size: 20px;
+    font-size: 21px;
 }
 .is-mediumFont .Node-self.is-heading3 .Node-contentContainer {
-    font-size: 18px;
+    font-size: 19px;
 }
 .is-mediumFont .Node-contentContainer {
   font-size: 18px;
@@ -31,9 +39,14 @@
   line-height: 1.0  !important;
 }
 
+/* Reduce sides padding */
+.is-desktop .Document-rootNode {
+  padding-right: 20px;
+  padding-left: 40px;
+}
+
 /* strikethrough everything */ 
 /*
-
 .Node.is-checked .node-time {
   color: var(--gray-3);
   text-decoration: line-through;
