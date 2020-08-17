@@ -290,19 +290,6 @@ option:active {
 .MobileHeader-title {
   color: var(--gray-3);
 }
-.MobileHeader-searchbar, 
-.finder-mobile-header-searchbar, 
-.node-mover-mobile-header-searchbar {
-    box-shadow: none;
-    color: var(--gray-3);
-    background: var(--gray-9);
-    border-bottom: 1px solid var(--gray-6);
-}
-.MobileHeader-searchbar:focus, 
-.finder-mobile-header-searchbar:focus, 
-.node-mover-mobile-header-searchbar:focus {
-    border-bottom: 1px solid var(--gray-6);
-}
 .MobileHeader-moreOptions {
   color: var(--gray-3);
   background: var(--gray-9);
@@ -315,26 +302,8 @@ option:active {
 .MobileHeader-option.is-disabled {
   color: var(--gray-5);
 }
-/* add custom sync indicator here?*/ 
-.MobileHeader-moreOption--saveNow {
-  display: block !important;
-  color: var(--yellow);
-}
-.MobileHeader-moreOption--saved.is-disabled, 
-.MobileHeader-moreOption--synced.is-disabled {
-  display: block !important;
-  color: var(--green);
-}
-.MobileHeader-moreOption--saveNow[style*='display: none'],
-.MobileHeader-moreOption--saved[style*='display: none'],
-.MobileHeader-moreOption--synced[style*='display: none'] {
-  display: none !important;
-}
-.MobileHeader-option--toggleReadMode:before {
-  color: var(--gray-5);
-}
-.MobileHeader-option--toggleReadMode.is-in-read-mode:before {
-  color: var(--green);
+.MobileHeader-option.is-active {
+  color: var(--orange); 
 }
 .mobile-dismissible-popup {
   background: var(--gray-8);
