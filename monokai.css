@@ -1,3 +1,4 @@
+/* Whitenoise ADD: Begin */
 :root {
   --node-red: rgba(172, 30, 43, 0.6);
   --node-orange: rgba(184, 98, 0, 0.6);
@@ -51,7 +52,7 @@
 .Node-contentContainer.mod-color-label-6 {
   background-color: var(--node-purple);
 }
-
+/* Whitenoise ADD: END */
 ::selection {
   background: var(--gray-3);
 }
@@ -71,10 +72,12 @@ select {
   border-color: var(--gray-6);
   border-radius: none;
 }
+/* Whitenoise ADD: Begin */
 textarea::placeholder,
 input::placeholder{
   color: var(--gray-3);
 }
+/* Whitenoise ADD: End */
 input:focus,
 textarea:focus,
 select:focus,
@@ -87,6 +90,7 @@ input:focus,
 textarea:focus {
   color: var(--gray-1);
 }
+/* Whitenoise ADD: Begin */
 option {
   background: var(--gray-8);
   color: var(--gray-2);
@@ -97,6 +101,7 @@ option:active {
   background: var(--node-blue);
   color: var(--gray-1);
 }
+/* Whitenoise ADD: End */
 .button {
   color: var(--gray-7);
   background: var(--orange);
@@ -117,11 +122,13 @@ option:active {
   background: var(--yellow);
   border: 1px solid transparent;
 }
+/* Whitenoise ADD: Begin */
 .button.mod-primary:active {
   color: var(--gray-9);
   background: var(--yellow);
   border: 1px solid var(--gray-1);
 }
+/* Whitenoise ADD: End */
 .button.mod-primary:hover {
   color: var(--gray-9);
   background: var(--yellow);
@@ -190,20 +197,6 @@ option:active {
 .AppHeader-lockMode {
   color: var(--orange);
 }
-.header-sync-state.mod-syncing,
-.header-sync-state.mod-saved,
-.header-sync-state.mod-synced {
-  color: var(--green);
-  text-decoration: none;
-  background: none;
-  border: none;
-}
-.header-sync-state.mod-sync-now {
-  color: var(--yellow);
-  text-decoration: none;
-  background: none;
-  border: none;
-}
 .header-sync-state.mod-sync-error,
 .header-sync-state.mod-save-error,
 .header-sync-state.mod-sync-disabled {
@@ -228,12 +221,11 @@ option:active {
 .full-screen-prompt-container {
   background: var(--gray-8);
 }
-.is-mobile .full-screen-prompt-container {
-    top: 40%;
-}
+/* Whitenoise ADD: Begin */
 .full-screen-prompt-instruction {
     color: var(--gray-3);
 }
+/* Whitenoise ADD: END */
 .finder-result {
   color: var(--gray-2);
 }
@@ -394,11 +386,6 @@ option:active {
   background: var(--gray-7);
   color: var(--yellow);
 }
-/*
-.pane-item.DocumentItem.is-open > .pane-item-header .pane-item-icon {
-  color: var(--yellow);
-}
-*/
 .pane-item-menu-trigger {
   color: var(--gray-2);
 }
@@ -436,6 +423,13 @@ option:active {
 .menu-item-secondary-text {
   color: var(--gray-4)
 }
+/* Whitenoise REM: Begin */
+/*
+.MenuItem.set-heading-level.current {
+  background: #003766;
+}
+*/
+/* Whitenoise REM: END */
 .MenuItem:not(.MenuItem--noHighlight):not(.is-disabled):hover,
 .MenuItem.mod-activated {
   background: var(--gray-7);
@@ -476,6 +470,7 @@ option:active {
   border: 1px solid var(--gray-1);
   color: var(--gray-1);
 }
+/* Whitenoise MOD: Begin */
 .mobile-popup-menu.is-active {
   background-color: transparent;
 }
@@ -513,6 +508,7 @@ option:active {
   background-color: var(--gray-8);
   color: var(--gray-2);
 }
+/* Whitenoise MOD: END */
 .file-details {
   border-bottom: 1px solid #444;
 }
@@ -539,9 +535,11 @@ option:active {
 .SharingForm .collab-delete {
   color: var(--gray-3);
 }
+/* Whitenoise ADD: Begin */
 .SharingForm .collab-delete:hover {
   color: var(--gray-1);
 }
+/* Whitenoise ADD: Begin */
 .SharingForm ul {
   background: var(--gray-9);
   border: 1px solid #444;
@@ -613,6 +611,7 @@ option:active {
 .setting-checkbox + .setting-label:after {
   border-color: var(--gray-1);
 }
+/* Whitenoise MOD: Begin */
 .KeyboardShortcut {
   background: var(--gray-7);
   color: var(--gray-2);
@@ -621,6 +620,15 @@ option:active {
   background: var(--gray-9);
   color: var(--gray-3);
 }
+/* Whitenoise MOD: End */
+/* Whitenoise REM: Begin */
+.keymap-shortcut-combo-delete {
+  color: #838383;
+}
+.keymap-shortcut-combo-delete:hover {
+  color: #eee;
+}
+/* Whitenoise REM: End */
 .keymap-shortcut-combo:hover {
   background: var(--gray-6);
   color: var(--gray-1);
@@ -726,6 +734,7 @@ option:active {
   border-radius: none;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.04), 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+/* Whitenoise ADD: Begin */
 .datepicker table tr td.old, .datepicker table tr td.new {
     color: var(--gray-4);
 }
@@ -737,6 +746,7 @@ option:active {
     background: var(--gray-8);
     color: var(--red);
 }
+/* Whitenoise ADD: End */
 .NotificationsContainer:before {
   border-bottom-color: #444;
 }
@@ -828,12 +838,14 @@ option:active {
   background: var(--yellow);
   color: var(--gray-7);
 }
+/* Whitenoise ADD: Begin */
 .datepicker table tr td.today,
 .datepicker table tr td.today:hover {
   background: var(--red);
   border-color: var(--red);
   color: var(--gray-1);
 }
+/* Whitenoise ADD: End */
 .datepicker table tr td.day.range-start,
 .datepicker table tr td.day.range-end {
   background: var(--yellow);
@@ -870,6 +882,7 @@ option:active {
   background-color: var(--node-blue);
   color: var(--gray-2);
 }
+/* Whitenoise ADD: Begin */
 .ui-timepicker-wrapper {
     background: var(--gray-8);
     border: 1px solid var(--gray-5);
@@ -884,6 +897,7 @@ option:active {
     background-color: var(--node-blue);
     color: var(--gray-1);
 }
+/* Whitenoise ADD: END */
 .AppContainer {
   background-color: var(--gray-7);
 }
@@ -915,11 +929,13 @@ option:active {
 .Node .Node.is-showing-bottom-children-divider > .Node-self:after {
   background-color: #444;
 }
+/* Whitenoise ADD: Begin */
 .Node.is-checked .node-tag,
 .Node.is-checked > .Node-self .Node-content,
 .Node.is-checked > .Node-self .Node-renderedContent {
   text-decoration: line-through;
 }
+/* Whitenoise ADD: END */
 .Node.is-checked .Node-content, 
 .Node.is-checked .Node-renderedContent, 
 .Node.is-checked .Node-note, 
@@ -982,7 +998,7 @@ option:active {
 .image-preview {
   border: 1px solid var(--gray-6);
 }
-
+/* Whitenoise ADD: Begin */
 .AppContainer.is-highlighting-overdue .Node .node-time.is-overdue {
   background: var(--gray-9);
   border: 1px solid var(--gray-5);
@@ -991,6 +1007,7 @@ option:active {
 .AppContainer.is-highlighting-overdue .Node .node-time.is-overdue:before {
   color: var(--red);
 }
+/* Whitenoise ADD: END */
 .node-inline-item,
 .AppContainer.is-highlighting-overdue .Node.is-checked .node-time.is-overdue {
   background-color: var(--gray-9);
@@ -1001,6 +1018,7 @@ option:active {
 .AppContainer.is-highlighting-overdue .Node.is-checked .node-time.is-overdue:before {
   color: var(--gray-3);
 }
+/* Whitenoise ADD: Begin */
 .AppContainer.is-highlighting-overdue .Node .node-time {
   background: var(--gray-9);
   border: 1px solid var(--gray-5);
@@ -1009,6 +1027,7 @@ option:active {
 .AppContainer.is-highlighting-overdue .Node .node-time:before {
   color: var(--green);
 }
+/* Whitenoise ADD: END */
 .AppContainer.is-highlighting-overdue .Node.is-checked .node-time {
   color: var(--gray-3);
 }
@@ -1030,13 +1049,11 @@ option:active {
   background-color: var(--gray-9);
   color: var(--gray-1);
 }
+/* Whitenoise ADD: Begin */
 .node-link {
   color: var(--yellow);
-  text-decoration: none;
 }
-.node-link:hover {
-  /*text-decoration: underline;*/
-}
+/* Whitenoise ADD: END */
 .node-tag {
   display: inline-block;
   color: var(--orange);
@@ -1104,11 +1121,13 @@ option:active {
 .is-mobile .DocumentBreadcrumb {
   border-bottom: 1px solid #444;
 }
+/* Whitenoise ADD: Begin */
 .DocumentBreadcrumb {
   display: flex;
   align-items: baseline;
   color: var(--yellow);
 }
+/* Whitenoise ADD: END */
 .node-toolbar {
   background-color: var(--gray-9);
   border-top-color: #444;
@@ -1130,15 +1149,14 @@ option:active {
 .document-backlinks-container .Node.has-hover {
   background-color: var(--gray-6);
 }
-.search-ui-container .Node .has-hover {
-  background-color: var(--gray-6);
-}
 .search-ui-hotkey {
   color: var(--red);
 }
+/* Whitenoise ADD: Begin */
 .search-ui-go-back {
   color: var(--gray-3);
 }
+/* Whitenoise ADD: End */
 .search-ui-container.mod-global-search .search-ui-document-result-container {
   border: 1px solid var(--gray-5);
 }
@@ -1207,7 +1225,9 @@ option:active {
   border-top: 1px solid var(--gray-6);
   color: var(--gray-3);
 }
+/* Whitenoise ADD: Begin */
 .hljs {
     color: var(--gray-1) !important;
     background: var(--gray-8) !important;
 }
+/* Whitenoise ADD: End */
