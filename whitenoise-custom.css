@@ -45,11 +45,6 @@
   padding-left: 40px;
 }
 
-/* Move mobile popup down */
-.is-mobile .full-screen-prompt-container {
-  top: 40%;
-}
-
 /* strikethrough everything */ 
 /*
 .Node.is-checked .node-time {
