@@ -45,6 +45,11 @@
   padding-left: 40px;
 }
 
+/* Move mobile popup down */
+.is-mobile .full-screen-prompt-container {
+  top: 40%;
+}
+
 /* strikethrough everything */ 
 /*
 .Node.is-checked .node-time {
@@ -53,10 +58,11 @@
 }
 */
 
-/* Hide folder and file icons */
+/* Hide bookmarks icons */
 .BookmarkItem-icon {
   display: none;
 }
+/* Hide folder and file icons */
 /*
 .DocumentItem-icon,
 .FolderItem-icon {
@@ -76,41 +82,4 @@
 .node-displayed-image[src$="#25"] {
   max-width: 25%;
   max-height: 25%; 
-}
-
-/* Custom mobile sync indicator */
-.MobileHeader-moreOption {
-  display: none !important;
-}
-.is-moreOptionsOpen .MobileHeader-moreOption {
-  display: block !important;
-}
-.MobileHeader-moreOptions {
-  display: block;
-  top: -1px;
-  left: 40px;
-  right: auto;
-  background: transparent;
-  box-shadow: none;
-}
-.is-moreOptionsOpen .MobileHeader-moreOptions {
-  top: 5px;
-  left: auto;
-  right: 5px;
-  background: var(--gray-9);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-.MobileHeader-moreOption--saveNow {
-  display: block !important;
-  color: var(--yellow);
-}
-.MobileHeader-moreOption--saved.is-disabled, 
-.MobileHeader-moreOption--synced.is-disabled {
-  display: block !important;
-  color: var(--green);
-}
-.MobileHeader-moreOption--saveNow[style*='display: none'],
-.MobileHeader-moreOption--saved[style*='display: none'],
-.MobileHeader-moreOption--synced[style*='display: none'] {
-  display: none !important;
 }

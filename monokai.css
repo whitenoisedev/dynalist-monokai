@@ -197,6 +197,22 @@ option:active {
 .AppHeader-lockMode {
   color: var(--orange);
 }
+/* Whitenoise ADD: Begin */
+.header-sync-state.mod-syncing,
+.header-sync-state.mod-saved,
+.header-sync-state.mod-synced {
+  color: var(--green);
+  text-decoration: none;
+  background: none;
+  border: none;
+}
+.header-sync-state.mod-sync-now {
+  color: var(--yellow);
+  text-decoration: none;
+  background: none;
+  border: none;
+}
+/* Whitenoise ADD: End */
 .header-sync-state.mod-sync-error,
 .header-sync-state.mod-save-error,
 .header-sync-state.mod-sync-disabled {
@@ -290,7 +306,11 @@ option:active {
 .MobileHeader-moreOption:not(.is-disabled):active {
   background: var(--gray-8);
 }
-.MobileHeader-moreOption.is-disabled,
+/* Whitenoise ADD: Begin */
+.MobileHeader-moreOption.is-disabled {
+  color: var(--purple);
+}
+/* Whitenoise ADD: END */
 .MobileHeader-option.is-disabled {
   color: var(--gray-5);
 }
@@ -1018,22 +1038,28 @@ option:active {
 .AppContainer.is-highlighting-overdue .Node.is-checked .node-time.is-overdue:before {
   color: var(--gray-3);
 }
-/* Whitenoise ADD: Begin */
+/* Whitenoise MOD: Begin */
 .AppContainer.is-highlighting-overdue .Node .node-time {
   background: var(--gray-9);
   border: 1px solid var(--gray-5);
   color: var(--green);
 }
+.AppContainer.is-highlighting-overdue .Node .node-time:hover {
+  border: 1px solid var(--gray-4);
+}
 .AppContainer.is-highlighting-overdue .Node .node-time:before {
   color: var(--green);
 }
-/* Whitenoise ADD: END */
 .AppContainer.is-highlighting-overdue .Node.is-checked .node-time {
   color: var(--gray-3);
+}
+.AppContainer.is-highlighting-overdue .Node.is-checked .node-time:hover {
+  border: 1px solid var(--gray-4);
 }
 .AppContainer.is-highlighting-overdue .Node.is-checked .node-time:before {
   color: var(--gray-3);
 }
+/* Whitenoise MOD: END */
 .node-inline-code {
   color: var(--red);
   background: rgba(255, 255, 255, 0.05);
@@ -1052,6 +1078,10 @@ option:active {
 /* Whitenoise ADD: Begin */
 .node-link {
   color: var(--yellow);
+  text-decoration: none;
+}
+.node-link:hover {
+  background: rgba(255, 255, 255, 0.08);
 }
 /* Whitenoise ADD: END */
 .node-tag {
@@ -1068,7 +1098,7 @@ option:active {
   background: transparent;
 }
 .DocumentContainer.has-tagBackground .node-tag:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.08);
 }
 .search-match {
   background: rgba(255, 255, 0, 0.3);
