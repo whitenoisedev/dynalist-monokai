@@ -14,6 +14,10 @@ Much of the credit for this theme goes to @Jevgeni for the initial work
 
 ## current
 
+## 0.6
+- fixed bug with new multiselect checkbox
+- refactored monokai.css to mirror theme_dark as much as possible 
+
 ## 0.5.1
 - whitenoise: Only hide bookmarks icon
 
